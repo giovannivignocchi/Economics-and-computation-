@@ -1,7 +1,7 @@
 set I;
 set J;
 
-#Utility matrix of player 1, since it is the unique matrix of utilities we need to copute maxmin
+#We use only the utility matrix of the first player, since we only need a unique matrix to copute the maxmin value.
 param U{I,J};
 
 var s{I} >= 0;
