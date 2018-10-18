@@ -1,0 +1,11 @@
+model NashMILP.mod;
+data  NashMILP.dat;
+
+option solver cplex;
+
+solve;
+
+display v1;
+display v2;
+display s1;
+display s2;

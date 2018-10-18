@@ -1,0 +1,16 @@
+set I := a1 a2 a3;
+
+param U1: a1  a2 a3 :=
+	  a1  3   0  0
+	  a2  0   3  0
+	  a3  0   0  3
+;
+
+param U2: a1  a2 a3 :=
+	  a1  0   2  3
+	  a2  3   2  0
+	  a3  2   0  1
+;
+
+param M1 := 3;
+param M2 := 3;

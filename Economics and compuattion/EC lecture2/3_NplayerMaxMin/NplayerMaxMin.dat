@@ -1,0 +1,17 @@
+set I := L1L2 R1L2 L1R2 R1R2;
+set J := l1l2 r1r2 l1r2 r1r2;
+set K := t p;
+
+#Questo è un paramentro multidimensionale
+param U:=
+    [t,*,*]: l1l2 r1r2 l1r2 r1r2 :=
+	      L1L2  4  4    4    4
+		  R1L2  6  4    6    4
+		  L1R2  4  4    4    4
+		  R1R2  9  2    9    2
+	[p,*,*]: l1l2 r1r2 l1r2 r1r2 :=
+	      L1L2  2  1   2    3
+		  R1L2  2  7   2    2
+		  L1R2  2  1   2    3
+		  R1R2  2  7   2    2
+;

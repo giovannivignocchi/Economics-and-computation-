@@ -1,0 +1,9 @@
+model maxmin.mod;
+data rps.dat;
+
+option solver cplex;
+
+solve;
+
+display v;
+display s;

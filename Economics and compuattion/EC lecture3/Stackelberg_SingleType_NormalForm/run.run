@@ -1,0 +1,13 @@
+reset;
+
+model model.mod;
+data data.dat;
+
+option  solver  gurobi;
+
+for{i in A}
+	{
+		let  AF  :=  i;
+		solve;
+		display  AF,  objective;
+	}

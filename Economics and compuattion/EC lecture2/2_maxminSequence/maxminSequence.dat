@@ -1,0 +1,39 @@
+set Q1 := qEmpty L1 R1 R1L2 R1R2 R1L3 R1R3;
+set Q2 := qEmpty l1 r1;
+
+set H1 := empty ONE TWO THREE;
+set H2 := empty one;
+
+param F1: qEmpty L1 R1 R1L2 R1R2 R1L3 R1R3 :=
+	empty   1    0  0   0    0    0    0
+	ONE    -1    1  1   0    0    0    0
+	TWO     0    0 -1   1    1    0    0
+	THREE   0    0 -1   0    0    1    1
+;
+
+param f1:=
+	empty 1
+	ONE   0
+	TWO   0
+	THREE 0
+;
+
+param U1: qEmpty l1 r1 :=
+   qEmpty   0    0  0
+     L1     4    0  0
+	 R1     0    0  0
+	R1L2    0    6  0
+	R1R2    0    9  0 
+	R1L3    0    0  2
+	R1R3    0    0  4
+;
+
+param F2: qEmpty l1 r1 :=
+  empty     1    0  0
+   one     -1    1  1
+;
+
+param f2 :=
+	empty   1
+	one     0
+;

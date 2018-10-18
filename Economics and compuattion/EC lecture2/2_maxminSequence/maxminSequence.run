@@ -1,0 +1,11 @@
+model maxminSequence.mod;
+data maxminSequence.dat;
+
+option solver baron;
+
+solve;
+
+display objective;
+display constraint1;
+display v2;
+display r1;

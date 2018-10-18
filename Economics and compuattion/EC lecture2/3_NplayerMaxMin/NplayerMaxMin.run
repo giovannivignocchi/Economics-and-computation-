@@ -1,0 +1,10 @@
+model NplayerMaxMin.mod;
+data NplayerMaxMin.dat;
+
+option solver minos;
+
+solve;
+
+display v;
+display s1;
+display s2;

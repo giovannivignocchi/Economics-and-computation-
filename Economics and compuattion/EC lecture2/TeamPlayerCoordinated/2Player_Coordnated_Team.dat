@@ -1,0 +1,7 @@
+set I := R P S;
+set J := RR RP RS PR PP PS SR SP SS;
+
+param U: RR RP RS PR PP PS SR SP SS :=
+	   R 0  1  -1  1  2  0 -1 0  -2
+	   P -2 -1  0 -1  0  1  0 1  2
+	   S 2  0   1  0 -2 -1  1 -1 0;
